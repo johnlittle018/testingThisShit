@@ -11,7 +11,7 @@ class PassengerTest {
     public void getWeight() {
         Passenger passenger = new Passenger(55);
         double weight = passenger.getWeight();
-        Assertions.assertEquals(55, weight);
+        Assertions.assertEquals(2000, weight);
 
     }
 }
